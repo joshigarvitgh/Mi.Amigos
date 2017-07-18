@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    tools:context="trial.trial_first.Settings">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/settingsPermissions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="30dp"
+                android:background="@drawable/settingsbtn"
+                android:clickable="true"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/settingsTitles"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Permissions"
+                        android:textSize="20dp"
+                        android:textColor="#444444"
+                        />
+
+                    <Switch
+                        android:id="@+id/permissionSwitch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="right"
+                        android:theme="@style/SwitchTheme"
+                        />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/settingsSubTitles"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Long-Press to know the permissions required"
+                    android:layout_marginTop="15dp"
+                    android:textSize="15dp"
+                    android:textColor="#666666"
+                    />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#999999"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/settingsRegisterDevice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="30dp"
+                android:background="@drawable/settingsbtn"
+                android:clickable="true"
+                >
+
+                <TextView
+                    android:id="@id/settingsTitles"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Register Device"
+                    android:textSize="20dp"
+                    android:textColor="#444444"
+                    />
+
+                <TextView
+                    android:id="@id/settingsSubTitles"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Device connectivity option"
+                    android:layout_marginTop="15dp"
+                    android:textSize="15dp"
+                    android:textColor="#666666"
+                    />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#999999"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/settingsResetPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="30dp"
+                android:background="@drawable/settingsbtn"
+                android:clickable="true"
+                >
+
+                <TextView
+                    android:id="@id/settingsTitles"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reset Password"
+                    android:textSize="20dp"
+                    android:textColor="#444444"
+                    />
+
+                <TextView
+                    android:id="@id/settingsSubTitles"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Account Security"
+                    android:layout_marginTop="15dp"
+                    android:textSize="15dp"
+                    android:textColor="#666666"
+                    />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#999999"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/settingsResetDefaultSettings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="30dp"
+                android:background="@drawable/settingsbtn"
+                android:clickable="true"
+                >
+
+                <TextView
+                    android:id="@id/settingsTitles"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reset Default Settings"
+                    android:textSize="20dp"
+                    android:textColor="#444444"
+                    />
+
+                <TextView
+                    android:id="@id/settingsSubTitles"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Application will be reset to raw"
+                    android:layout_marginTop="15dp"
+                    android:textSize="15dp"
+                    android:textColor="#666666"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

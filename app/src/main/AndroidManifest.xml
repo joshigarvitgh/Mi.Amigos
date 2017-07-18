@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="trial.trial_first">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Mi-Amigos"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splashscreen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login_new"></activity>
+
+        <activity
+            android:name=".SignUp"
+            android:label="Sign Up"></activity>
+        <activity
+            android:name=".Reset"
+            android:label="@string/title_activity_reset"></activity>
+        <activity
+            android:name=".TNCC"
+            android:label="Terms and Conditions"></activity>
+        <activity
+            android:name=".GeoFencing"
+            android:label="Geofencing" />
+        <activity
+            android:name=".Assessment"
+            android:label="@string/title_activity_assessment"></activity>
+        <activity
+            android:name=".FindPerson"
+            android:label="@string/title_activity_find_person"></activity>
+        <activity
+            android:name=".TemporaryPage"
+            android:label="@string/title_activity_temporary_page"></activity>
+        <activity
+            android:name=".Congratulations"
+            android:label="@string/title_activity_congratulations"></activity>
+        <activity
+            android:name=".TransparentOne"
+            android:label="@string/title_activity_transparent_one"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".TransparentTwo"
+            android:label="@string/title_activity_transparent_two"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".TransparentThree"
+            android:label="@string/title_activity_transparent_three"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".QuestionAnswer"
+            android:label="@string/title_activity_question_answer" />
+        <activity
+            android:name=".PermissionsRequired"
+            android:label="@string/title_activity_permissions_required"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".FNavigation"
+            android:label="@string/title_activity_fnavigation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".Message"
+            android:label="@string/title_activity_message"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name=".bot" />
+        <activity android:name=".game1" />
+        <activity android:name=".game2" />
+        <activity android:name=".music" />
+        <activity android:name=".testing" />
+    </application>
+
+</manifest>

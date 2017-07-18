@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+
+    android:background="#BB000000"
+
+    tools:context="trial.trial_first.PermissionsRequired">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:orientation="vertical"
+        android:background="@drawable/mydialogbox"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            >
+
+            <TextView
+                android:id="@+id/permissionsRequiredTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Permissions Required"
+                android:textColor="#6A0054"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:id="@+id/permissionsRequiredClose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:layout_alignParentRight="true"
+                android:textColor="#999999"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#999999"
+                android:layout_below="@id/permissionsRequiredClose"
+                android:layout_marginTop="15dp"
+                />
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/permissionsRequiredTextBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#555555"
+                    android:text="Permission text here.."
+                    android:textSize="15dp"
+                    />
+
+                <Button
+                    android:id="@+id/permissionsRequiredButton"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="OK"
+                    android:textColor="#36002F"
+                    android:background="@drawable/borderbtn"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_gravity="right"
+                    />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

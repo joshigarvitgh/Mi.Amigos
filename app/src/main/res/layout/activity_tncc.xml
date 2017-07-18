@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="trial.trial_first.TNCC">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/loginlogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="240dp"
+        >
+
+        <TextView
+            android:id="@+id/titleTNCC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#6A0054"
+            android:text="Mi Amigos"
+            android:textSize="35dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#6A0054"
+            android:text="___________________________"
+            android:textSize="20dp"
+            android:layout_marginTop="-12dp"
+            />
+        <TextView
+            android:id="@+id/lowTitleTNCC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#888888"
+            android:text="Terms and Conditions"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="20dp"
+            >
+
+            <TextView
+                android:id="@+id/tnctext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trial Text sldjf asld flkajsdff  sdkf s fdkfls dlfkjs kdfj asldfj ksljdflk sdflk lfieef  sgls gls dflksoidf slkd fs dflksj df"
+               />
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
